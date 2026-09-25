@@ -1,0 +1,24 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "ci/prompt-promotion-pr",
+    "fix/integration-webhook-symbols-ci",
+    "integration/staging",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "ci/prompt-promotion-pr": "main",
+    "fix/integration-webhook-symbols-ci": "main",
+    "integration/staging": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "ci/prompt-promotion-pr",
+    "fix/integration-webhook-symbols-ci",
+    "integration/staging",
+    "origin"
+  ]
+}
